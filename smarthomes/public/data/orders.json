@@ -1,0 +1,58 @@
+[
+  {
+    "orderId": 1,
+    "customerId": 1,
+    "product": "Smart Doorbell",
+    "status": "Processing"
+  },
+  {
+    "orderId": 2,
+    "customerId": 2,
+    "product": "Smart Speaker",
+    "status": "Delivered"
+  },
+  {
+    "name": "Ahmed",
+    "creditCard": "3123",
+    "deliveryOption": "store",
+    "storeLocation": {
+      "id": 4,
+      "name": "Greenwich",
+      "zipCode": "10004"
+    },
+    "address": null,
+    "total": "309.94",
+    "confirmationNumber": "616161",
+    "orderDate": "Sat Sep 14 2024",
+    "pickupDate": "Sat Sep 28 2024",
+    "cart": [
+      {
+        "id": 8,
+        "name": "Echo Remote",
+        "price": 29.99,
+        "description": "A remote control for your Amazon Echo.",
+        "quantity": 2
+      },
+      {
+        "id": 9,
+        "name": "Smart Plug",
+        "price": 24.99,
+        "description": "A smart plug to control non-smart devices with your smart speaker.",
+        "quantity": 2
+      },
+      {
+        "id": 12,
+        "name": "Amazon Echo (4th Gen)",
+        "price": 99.99,
+        "description": "Smart speaker with premium sound and Alexa.",
+        "accessories": [
+          8,
+          9
+        ],
+        "quantity": 2
+      }
+    ],
+    "status": "Processing",
+    "orderId": "616161"
+  }
+]
